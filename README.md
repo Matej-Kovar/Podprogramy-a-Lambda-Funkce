@@ -1,10 +1,6 @@
 # Maturitní úloha: Podprogramy a lambda funkce (C#)
 
-**Doporučený čas:** 30 minut (přibližně 20 minut programování a 10 minut vysvětlení).  
-**Výchozí projekt:** `Zadani/Zadani.csproj`  
-**Referenční výsledek:** `Reseni/Reseni.csproj`
-
-## Zadání pro zkoušeného
+## Zadání
 
 Program sleduje body získané v pěti dnech sportovní výzvy. Již obsahuje vstupní data, volání metod a všechny potřebné signatury. Doplňte pouze označené části souboru `Zadani/Program.cs`:
 
@@ -39,6 +35,3 @@ Počet dní se splněným limitem: 3
 4. Ve `VypisSouhrn` použijte `Console.WriteLine`; prvky pole spojte pomocí `string.Join(", ", body)`.
 5. Spusťte zadání znovu a porovnejte výstup se vzorem. Pro kontrolu okrajových případů vyzkoušejte prázdné pole, limit přesně rovný některé hodnotě a podmínku, která nevybere žádný prvek.
 
-## Vodítko k hodnocení
-
-Praktická část ověřuje správnost všech čtyř doplnění včetně prázdného pole a rovnosti s limitem. Při ústním vysvětlení má zkoušený správně rozlišit funkci od procedury, popsat parametry a návratové hodnoty, vysvětlit rekurzivní ukončení, předání lambda výrazu a obor platnosti i zachycení proměnné `limit`.
